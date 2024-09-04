@@ -40,3 +40,17 @@ Should You wish to submit work that is not Your original creation, You may submi
 
 **8.	Agreements.**
 You agree to notify the Project of any facts or circumstances of which you become aware that would make these representations inaccurate in any respect.
+
+---
+# Individual Software Grant and Contributor License Agreement (CLA)
+
+OmniOne 프로젝트에 기여할 경우, 아래의 조건에 동의해야 합니다.
+
+## 라이선스 부여
+기여자는 자신의 기여에 대해 프로젝트에 저작권 및 특허 라이선스를 부여합니다.
+
+## 기여자 의무
+기여자는 자신의 기여가 본인 소유임을 보장하며, 제3자의 권리가 포함된 경우 이를 명확히 밝혀야 합니다.
+
+## CLA 서명 절차
+프로젝트 웹사이트에서 CLA에 서명할 수 있습니다.
