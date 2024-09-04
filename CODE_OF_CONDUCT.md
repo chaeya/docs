@@ -135,3 +135,19 @@ at [https://www.contributor-covenant.org/translations][translations].
 [FAQ]: https://www.contributor-covenant.org/faq
 
 [translations]: https://www.contributor-covenant.org/translations
+
+
+---
+# Code of Conduct
+
+OmniOne 프로젝트는 차별 없는 커뮤니티 환경을 지향합니다.
+
+## 커뮤니티 행동 강령
+- 서로 존중하고, 다른 사람의 의견을 경청합니다.
+- 실수를 인정하고 이를 통해 배우는 자세를 유지합니다.
+
+## 금지된 행동
+- 성적 언어 사용, 괴롭힘, 개인적인 공격 등은 금지됩니다.
+
+## 위반 시 조치
+- 경고, 일시적 접근 금지, 영구 차단 등의 조치를 취할 수 있습니다.
