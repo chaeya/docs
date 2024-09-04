@@ -127,3 +127,57 @@ OmniOne Open DID is under active development. Here are some features we're plann
 Stay tuned for updates!
 
 
+---
+# OmniOne Digital ID
+
+OmniOne Digital ID는 전 세계 자율적 신원(Self-Sovereign Identity, SSI)을 촉진하고 확산하기 위해 구축된 개방형 분산 식별자(DID) 시스템입니다. 이 프로젝트는 보안성, 확장성, 상호 운용성을 목표로 하며, 최신 DID 표준을 준수하여 설계되었습니다.
+
+## 목표
+- **신뢰성 있는 디지털 ID 인증 시스템 제공**: OPEN DID 플랫폼을 통해 디지털 세계에서 신뢰할 수 있는 인증 환경을 제공합니다.
+- **사회적 포용성 증대**: 디지털 인프라에서 소외된 사회적 약자도 디지털 신원을 통해 자신의 가치를 실현할 수 있도록 지원합니다.
+
+## 주요 구성 요소
+- **Trust Environment**: 디지털 ID 기반의 신뢰 체인을 형성하는 신뢰 환경을 구축합니다.
+- **Wallet**: DID 및 검증 가능한 자격증명(VC)을 저장 및 관리하는 디지털 지갑.
+- **Digital ID**: W3C의 분산 식별자와 검증 가능한 자격 증명(VC) 사양을 준수하는 데이터 모델.
+- **Security**: 시스템 내 데이터를 안전하게 보호하는 보안 시스템.
+
+## 설치 방법
+### 요구 사항
+- **Node.js**: 버전 14 이상
+- **npm**: 버전 6 이상
+- **Git**: 리포지토리 클론에 필요
+
+### 설치 절차
+1. 리포지토리 클론:
+    ```bash
+    git clone https://github.com/yourusername/OmniOne.git
+    cd OmniOne
+    ```
+2. 의존성 설치:
+    ```bash
+    npm install
+    ```
+
+3. DID 서비스 시작:
+    ```bash
+    npm start
+    ```
+
+### 기본 사용법
+- **새로운 DID 생성**:
+    ```bash
+    npm run create-did
+    ```
+
+- **기존 DID 조회**:
+    ```bash
+    npm run resolve-did did:omni:123456789abcdefghi
+    ```
+
+### 기여 가이드
+- GitHub 리포지토리를 포크하고, 브랜치를 생성한 후 Pull Request를 통해 기여할 수 있습니다.
+- 문서 및 비개발 관련 기여(버그 리포트, 기능 요청 등)도 환영합니다.
+
+### 보안
+OmniOne 시스템의 보안은 데이터의 무결성과 기밀성을 보장합니다. 모든 데이터는 암호화되며, 보안 취약점 발견 시 GitHub 이슈 페이지를 통해 보고할 수 있습니다.
