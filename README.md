@@ -100,6 +100,9 @@ Please ensure that your code adheres to our [contribution guidelines](CONTRIBUTI
 This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
 Apache License 2.0 : http://www.apache.org/licenses/LICENSE-2.0
 
+Check out the licenses of other open sources used in the project below.
+
+* [LICENSE-dependencies](/LICENSE-dependencies.md)
 
 ### Acknowledgments
 
