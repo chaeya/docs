@@ -49,3 +49,21 @@ Our commit rule guidelines are based on the [OpenDID Commit Rule](commitrule).
 
 ## License
 Copyright 2024 Raonsecure
+
+
+---
+
+# Contribution Guidelines
+
+OmniOne 프로젝트에 기여하는 방법을 설명합니다.
+
+## 기여 절차
+1. 리포지토리 포크 후 새로운 브랜치를 생성합니다.
+2. 코드 변경 후 Pull Request를 생성합니다.
+3. 테스트가 통과하도록 확인합니다.
+
+## 비개발 기여
+- 버그 리포트, 기능 요청 등은 GitHub 이슈를 통해 가능합니다.
+
+## CLA(기여자 라이선스 계약)
+모든 기여자는 CLA에 서명해야 하며, 프로젝트 웹사이트에서 서명을 완료할 수 있습니다.
