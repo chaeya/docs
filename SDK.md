@@ -93,3 +93,46 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_
 
 ## License
 Copyright 2024 Raonsecure
+
+---
+# Android Wallet Core SDK
+
+Android Wallet Core SDK는 Android 환경에서 DID(분산 식별자)와 검증 가능한 자격증명(VC)을 관리하는 데 필요한 기능을 제공합니다.
+
+## 설치 방법
+### 요구 사항
+- **OS**: Android 13 이상
+- **Language**: Java 17
+- **IDE**: Android Studio 4
+- **Build System**: Gradle 8.2 이상
+
+### 설치 절차
+1. 프로젝트에 SDK 추가:
+    ```gradle
+    implementation files('libs/opendid-core-sdk-aos-1.0.0.jar')
+    ```
+
+2. Gradle 동기화:
+    ```bash
+    ./gradlew sync
+    ```
+
+## 주요 API 설명
+### KeyManager
+- **키 생성**: 새로운 키 쌍을 생성합니다.
+- **키 저장**: 생성된 키를 안전하게 저장합니다.
+- **키 검색**: 저장된 키를 검색합니다.
+- **키 삭제**: 저장된 키를 삭제합니다.
+
+### DIDManager
+- **DID 생성**: 새로운 DID를 생성합니다.
+- **DID 관리**: DID 문서를 생성, 업데이트, 삭제합니다.
+- **DID 검색**: 기존 DID 정보를 검색합니다.
+
+### VCManager
+- **VC 저장**: 생성된 검증 가능한 자격 증명을 저장합니다.
+- **VC 검색**: 저장된 자격 증명을 검색합니다.
+- **VC 삭제**: 자격 증명을 삭제합니다.
+
+## 고급 기능
+- **보안 암호화**: SecureEncryptor API를 통해 데이터를 안전하게 암호화하고 복호화할 수 있습니다.
